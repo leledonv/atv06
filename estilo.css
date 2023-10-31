@@ -1,0 +1,288 @@
+@charset 'utf-8';
+
+*{
+    margin: 0;
+    padding: 0;
+    border: none;
+    text-decoration: none;               /*CSS RESET*/
+    list-style-type: none;
+}
+
+body{
+    background-color: #ccc;
+    background-image: url(imagem/9362fd52-f928-4fce-a119-efae36dbebe331520382papeldeparedeadesivorolo058x300mlisomarrom3713535291600x600.webp);
+    background-repeat: repeat;
+    background-position: left top;
+   /* background-size: 800px 500px; */
+   background-attachment: fixed;
+}
+
+main{
+    border-style: solid ; /*estilo*/
+    border-color: #000; /*cor*/
+    border-width: 10px; /*tamanho*/
+
+    border: 1px solid #000; /* CSS IMPLICITO*/
+
+
+    width: auto; /*largura*/
+    /*height: 700px; altura automatica*/
+    background-color: rgba(84, 46, 15, 0.251);
+
+    margin-top: 100px;
+    margin-right: 100px;
+    margin-bottom: 100px;  /*css explicito*/
+    margin-left: 100px;
+
+    margin: 15px 0px 15px 260px; /*css implicito*/
+
+    margin: 0 auto;
+}
+
+header{
+
+    border: 1px solid #aff;
+    background-color: #c9f3f3;
+    width: auto;
+    height: 250px;
+    margin-top: 10px;
+    margin-left: 10px;
+    background-image: url(imagem/20412_fotos_22-magia_bolo_inteiro_540x400px22.png);
+    background-size: 580px 250px ;
+    animation-name: slide;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: alternate;
+    border-radius: 10px;
+}
+
+@keyframes slide{
+    from{background-image: url(imagem/pexels-photo-3779945\ \(1\).webp);}
+    to {background-image: url(imagem/pexels-photo-1191639.webp);}
+}
+
+
+
+nav{
+    border: 1px solid #aff;
+    background-color: #c9f3f3;
+    width: auto;
+    height: 60px;
+    margin-top: 10px;
+    margin-left: 10px;
+}
+
+/* INICIO MENU CSS*/
+nav> ul{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+nav > li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav > a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+nav > ul{
+    margin-left: 500px;
+}
+nav > ul > li {
+    float: left;
+    margin-left: 15px;
+    line-height: 60px;
+}
+
+nav > ul > li > a  {
+    color: #000;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    background-color: rgba(236, 242, 247, 0.6);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+
+
+}
+
+nav> ul > li > a:hover{
+    background-color: rgba(107, 19, 19, 0.6);
+    border: 3px double #000;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+.bolo img{
+    border: 4px solid  #aff ;
+    float: left;
+    margin-top: 15px;
+    margin-left: 12px;
+    height: 790px;
+    width: 910px;
+
+}
+
+.bolo h1{
+    float: right;
+    text-align: center;
+    margin-right: 70px;
+    margin-top: 200px;
+
+}
+
+a {
+  color: hotpink;
+}
+
+
+
+
+/* FIM MENU CSS */
+section{ 
+    float: left; /*posicionar o elemento na esquerda */
+    border: 1px solid #aff;
+    background-color: #c9f3f3;
+    width: auto;
+    height: 600px;
+    margin-top: 10px;
+    margin-left: 10px;
+
+}
+
+/*inicio do menu lateral*/
+section> ul{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+section > li{
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+section> a {
+    margin: 0;
+    padding: 0;
+    text-decoration: none;
+}
+
+section > ul > li{
+    display: block;
+    border-bottom: 1px solid #aaa;
+}
+
+section > ul > li > a {
+    display: block;
+    color: #000;
+    font-weight: bolder;
+    padding: 15px;
+
+}
+
+section > ul > li > a:hover{
+    background-color: #222;
+    color: #fff;
+}
+
+/*fim do menu lateral*/
+
+
+article{
+    float: right; /*posicionar o elemento na direita */
+    border: 1px solid #aff;
+    background-color: #c9f3f3;
+    width: auto;
+    
+    margin-top: 10px;
+    margin-right: 10px;
+
+}
+
+#img {
+    background-image: url(imagem/20412_fotos_22-magia_bolo_inteiro_540x400px22.png);
+}
+
+span > a {
+    line-height: 100px;
+    margin-left: 230px;
+    color: #000;
+    font-weight: bolder;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 15px;
+    background-color: rgba(236, 242, 247, 0.6);
+    border: 1px solid #ccc;
+    border-radius: 10px;
+}
+
+
+span a:hover{
+    background-color: rgba(107, 19, 19, 0.6);
+    border: 3px double #000;
+    border-radius: 10px;
+    color: #fff;
+
+}
+
+
+.quadro{
+    border: 1px solid #000;
+    background-color: #eee;
+    width: auto;
+    height: 295px;
+    text-indent: 20px;
+}
+
+.quadro > h1{
+    text-align: center;
+    padding-top: 10px;
+    font-size: 24px;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-shadow: 4px 4px 5px rgba(91, 219, 217, 0.6);
+}
+
+.quadro > p {
+    padding: 20px;
+    text-align: justify;
+    text-indent: 20px  ;
+}
+
+#separa{
+    border: 1px solid #aaa;
+    background-color: #eee;
+    width: auto;
+    height: 40px;
+    margin-left: 15px;
+    margin-top: 320px;
+}
+
+#imagem{
+    border: 1px solid #aaa;
+    background-color: #eee;
+    width: auto;
+    height: 220px;
+    margin-left: 15px;
+    margin-top: 10px;
+    background-image: url(imagem/pexels-photo-1414234.webp);
+    background-size: 380px 220px;
+    border-radius: 10px;
+
+
+}
+footer{
+    border: 1px solid rgb(196, 202, 202);
+    background-color: #c9f3f3;
+    width: auto;
+    height: 60px;
+    margin-top: 620px;
+    margin-left: 10px;
+    clear: both;
+
+}
